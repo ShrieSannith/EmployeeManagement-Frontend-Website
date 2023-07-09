@@ -111,6 +111,7 @@ img:hover {
     height: 600px !important;
     background-color: aliceblue;
     /*display:inline-block;*/
+    height: 50vh;
     margin: 30px;
     transform: none !important;
     vertical-align: middle;
