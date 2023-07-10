@@ -23,7 +23,26 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
+
     
+}
+
+@media (max-width: 600px) {
+  .overlay-text {
+    font-size: 50px; /* Font size for screens up to 600px width */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .overlay-text {
+    font-size: 70px; /* Font size for screens between 601px and 1024px width */
+  }
+}
+
+@media (min-width: 1025px) {
+  .overlay-text {
+    font-size: 100px; /* Font size for screens larger than 1024px width */
+  }
 }
 
 .imgtxt_container{
