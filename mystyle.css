@@ -29,13 +29,13 @@ body {
 
 @media (max-width: 600px) {
   .overlay-text {
-    font-size: 50px; /* Font size for screens up to 600px width */
+    font-size: 80px; /* Font size for screens up to 600px width */
   }
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
   .overlay-text {
-    font-size: 70px; /* Font size for screens between 601px and 1024px width */
+    font-size: 90px; /* Font size for screens between 601px and 1024px width */
   }
 }
 
